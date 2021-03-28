@@ -1,0 +1,20 @@
+<div>
+  <h3> nowa notatka </h3>
+    <form class="note-form" action="/?action=create" method="post">
+    <ul>
+      <li>
+        <label> Tytuł notatki <span class="required">* </label>
+        <input type = "text" name="title" class="field-long" />     
+    </li>
+
+    <li>
+      <label>Opis </label>
+      <textarea name="description" id="field5" class="field-long field-textarea"> </textarea> 
+  </li>
+  <li> 
+    <input type = "submit" value = "Submit" />
+  </li>
+</ul> 
+    </form>  
+  </div>
+</div>
